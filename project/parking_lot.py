@@ -122,8 +122,8 @@ class Parking:
             else: 
                 print("slot is already empty, Cant perform exit command. please provide only parked car input")
 
-        elif line.startswith('parking_slot_status'):
-            self.parking_slot_status()
+        elif line.startswith('slot_status'):
+            self.slot_status()
 
         elif line.startswith('registration_numbers_for_cars_with_colour'):
             car_colour = line.split(' ')[1]
